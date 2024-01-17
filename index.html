@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu-hamburguesa/menu.css">
+</head>
+
+<body>
+
+    <div class="fondo">
+        <p class="texto1">Clínica de SURF con Longboard</p>
+        <p class="bold texto2">Caminamos sobre el mar.</p>
+        <img src="images/walk.png" alt="icono persona caminando" class="imagenfondo">
+
+        <!-- Comienza Menú hamburguesa para móvil -->
+         
+        <div id="bars-menu" class="bars-menu">
+            <span class="line1-bars-menu"></span>
+            <span class="line2-bars-menu"></span>
+            <span class="line3-bars-menu"></span>
+        </div>
+
+        <nav id="nav" class="main-nav">
+        <div class="nav-links">
+            <a class="link-item" href="">Clases</a>
+            <a class="link-item" href="">Comprá tu equipo</a>
+            <a class="link-item" href="">Contacto</a>
+        </div>
+        </nav>
+
+        <!-- Finaliza Menú hamburguesa para móvil -->
+
+    </div>
+    
+    <div class="navbar">
+
+        <div class="encabezado">
+            <h2>Clínica SurfLong</h2>
+        </div>
+
+        <div class="botonera">
+            <a href="" class="link-navbar">Clases</a>
+            <a href="" class="link-navbar">Comprá tu equipo</a>
+            <a href="" class="link-navbar">Contacto</a>
+            <span class="barrita"></span>
+        </div>
+
+        <button class="button button-navbar">Elegir plan</button>
+
+        <div class="icono-encabezado">
+            <img src="images/walk-black.png" alt="icono persona caminando">
+        </div>
+
+    </div>
+
+    <div class="body-introduccion">
+
+        <p class="color-terciary">Divertite</p>
+        <h1>Tenemos el método para que aprendás divirtiéndote</h1>
+        <p class="color-secondary">Aprende</p>
+
+    </div>
+
+    <div class="reserva-y-ver-video">
+
+        <div>
+            <button class="button button-elegir-plan">Elegir plan</button>
+        </div>
+
+        <a href="" class="ver-video">
+            <p class="ver-video-p">Ver video</p>
+            <img class="ver-video-i" src="images/play-circle-sharp.png" alt="icono de play">
+        </a>
+       
+    </div>
+
+    <div class="imagen-principal">
+        <img class="elemento-imagen-principal animation" src="images/mujer-tiro-completo-tabla-surf 1.png" alt="" data-animation="show">
+    </div>
+
+    <div class="planes-virtuales">
+
+        <img class="imagen-monitor animation" src="images/monitor.png" alt="" data-animation="show">
+
+        <div class="informacion animation" data-animation="show">
+            <h2>Planes virtuales</h2>
+
+            <div class="texto-principal-info">
+                <p>¿No vivís en la playa pero sentís una pasión desbordante por el surf?</p>
+                <p>Con este plan, tendrás la oportunidad de potenciar y perfeccionar tu técnica de surf sin siquiera salir de tu hogar.</p>
+                <p>Así, cuando llegue el esperado día de sumergirte en las olas, te encontrarás completamente listo para disfrutar al máximo y vivir una experiencia llena de diversión.</p>
+            </div>
+
+            <button class="button button-plan-virtual">Conocé más</button>
+
+        </div>
+    </div>
+
+    <div class="body-introduccion">
+
+        <p class="color-terciary">Presencial</p>
+        <h1>Planes a medida</h1>
+        <p class="color-secondary">Virtual</p>
+
+    </div>
+
+    <div class="elegir-tipo-de-plan">
+
+        <div class="botones-de-planes animation" data-animation="fade">
+            <button class="anual button-tipo-de-plan">Anual (20% de descuento)</button>
+            <button class="mensual button-tipo-de-plan-inactive">Mensual</button>
+        </div>
+
+        <div class="tarjetas-planes animation" data-animation="show">
+
+            <div class="tarjeta tarjeta1">
+
+                <div class="titulos-tarjetas">
+                    <p class="titulo-1">Plan presencial</p>
+                    <p class="precio precioPresencial"></p> <!--El precio se genera desde JavaScript para que sea fácil editarlo-->
+                    <p class="bajada">Ideal si vivís en la playa</p>
+                </div>
+
+                <div class="button-tarjetas-contenedor">
+                    <button class="button button-tarjetas">Comprar</button>
+                </div>
+
+                <div class="listado-tarjetas-contenedor">
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>8 clases de surf al mes</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Traje y tabla incluidos</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Fotos y videos</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Asesoría de mejora</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tarjeta tarjeta2">
+
+                <div class="titulos-tarjetas">
+                    <p class="titulo-1">Plan virtual</p>
+                    <p class="precio precioVirtual"></p><!--El precio se genera desde JavaScript para que sea fácil editarlo-->
+                    <p class="bajada">Ideal si no vivís en la playa</p>
+                </div>
+
+                <div class="button-tarjetas-contenedor">
+                    <button class="button button-tarjetas">Comprar</button>
+                </div>
+
+                <div class="listado-tarjetas-contenedor">
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>8 videoclases al mes</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Material técnico-visual</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Introducción al surfskate</p>
+                    </div>
+
+                    <div class="elemento-lista-tarjeta">
+                        <img src="images/tilde.png" alt="tilde">
+                        <p>Asesoría de mejora</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body-introduccion">
+
+        <p class="color-terciary">Divertite</p>
+        <h1>Ventajas de la Clínica SurfLong</h1>
+        <p class="color-secondary">Aprende</p>
+
+    </div>
+
+    <div class="ventajas">
+
+        <div class="beneficios animation" data-animation="fade">
+
+            <div class="beneficio-especifico activo">
+
+                <span class="barra-beneficio-activate"></span>
+
+                <div class="texto-beneficio texto-beneficio-activate">
+                    <h2 class="titulo-beneficio">Conocerás cuál es tu tabla ideal</h2>
+                    <p class="texto-beneficio">Uno de los errores más frecuentes y desalentadores radica en la elección incorrecta de tu tabla surf. En la Clínica SurfLong, nos dedicamos a brindarte orientación y asesoramiento personalizado para ayudarte a determinar cuál es la tabla más adecuada según tu nivel de habilidad y tus capacidades físicas.</p>
+                </div>
+
+            </div>
+
+            <div class="beneficio-especifico">
+
+                <span class="barra-beneficio"></span>
+
+                <div class="texto-beneficio texto-beneficio-inactive">
+                    <h2 class="titulo-beneficio">Asesoramiento profesional</h2>
+                    <p class="texto-beneficio">
+                        En cada fase de tu experiencia en el mundo del surf, contarás con un instructor dedicado que se ocupará de realizar un seguimiento detallado de tu progreso. De manera personalizada, te guiará para que puedas mejorar día a día y disfrutar al máximo de la experiencia.</p>
+                </div>
+                
+            </div>
+
+            <div class="beneficio-especifico">
+
+                <span class="barra-beneficio"></span>
+
+                <div class="texto-beneficio texto-beneficio-inactive">
+                    <h2 class="titulo-beneficio">Conseguirás surfear solo/a</h2>
+                    <p class="texto-beneficio">La meta última de este enriquecedor proceso de enseñanza del arte de surfear es que puedas comprender a fondo el mar, sus condiciones tanto favorables como desfavorables y adquieras conceptos técnicos y experiencia para que puedas aventurarte al océano de manera independiente.</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <img class="imagen-beneficios animation" src="images/imagen-beneficios.png" alt="" data-animation="show">
+    </div>
+
+    <div class="footer">
+
+        <div class="titulo-footer">
+            <p>Empezá hoy</p>
+            <h1>Estás a un paso de cumplir tu sueño</h1>
+        </div>
+
+        <button class="button button-elegir-plan">Elegir plan</button>
+       
+        <div class="footer-contacto">
+
+            <p class="nombre-marca-footer">Clínica SurfLong</p>
+
+            <div class="contacto">
+                <p>Instagram</p>
+                <p>Contacto</p>
+            </div>
+
+            <img class="imagen-footer" src="images/walk2.png" alt="icono">
+
+        </div>
+
+    </div>
+
+    <script src="js.js"></script>
+    <script src="menu-hamburguesa/menu.js"></script>
+</body>
+</html>
